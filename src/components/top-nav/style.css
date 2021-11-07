@@ -1,0 +1,20 @@
+.top_nav_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+}
+
+.logo{
+  background-color: #6F00A3;
+  width: 147.27px;
+  height: 41px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo p{
+  font-size: 16px;
+}

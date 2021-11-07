@@ -1,0 +1,9 @@
+.switch_button_container button{
+  width: 203px;
+  height: 55px;
+  background-color: #2B003F;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
