@@ -1,11 +1,11 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import SwitchButton from '../../components/switch-button/SwitchButton'
-import GeneralContext from '../../context/generalContext'
+import { useGeneralContext } from '../../context/generalContext'
 import './style.css'
 
 const LandingPage = () => {
 
-  const { isDarkModeActivated, toggleDarkModeState, generalAppColors } = useContext(GeneralContext)
+  const { isDarkModeActivated, toggleDarkModeState, generalAppColors } = useGeneralContext()
   return (
     <div className="landing_page_container" style={{ backgroundColor: generalAppColors.primaryColor }}>
       <div className="inner_landing_page_container">

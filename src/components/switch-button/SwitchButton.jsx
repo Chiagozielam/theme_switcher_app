@@ -1,11 +1,11 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import './style.css'
 
-import GeneralContext from '../../context/generalContext'
+import { useGeneralContext } from '../../context/generalContext'
 
 const SwitchButton = ({ onClick, text }) => {
 
-  const { generalAppColors } = useContext(GeneralContext)
+  const { generalAppColors } = useGeneralContext()
 
   return (
     <div className="switch_button_container">
